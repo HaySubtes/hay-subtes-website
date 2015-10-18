@@ -1,0 +1,28 @@
+{
+  "name": "haysubtes",
+  "description": "#HaySubtes",
+  "homepage": "http://haysubtes.com/",
+  "authors": [
+    {
+      "name": "Tineia @celestineia",
+      "role": "Cerebro"
+    },
+    {
+      "name": "Ale Mohamad @alemohamad",
+      "role": "Handyman"
+    }
+  ],
+  "require": {
+    "mikecao/flight": "1.*",
+    "philo/laravel-blade": "2.*",
+    "nesbot/carbon": "1.*",
+    "paquettg/php-html-parser": "1.6.*",
+    "jdorn/file-system-cache": "dev-master"
+  },
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "HaySubtes\\": "HaySubtes"
+    }
+  }
+}

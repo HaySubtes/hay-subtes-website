@@ -1,0 +1,77 @@
+@media screen and (max-width: 1024px) {
+  header {
+    height: 75px;
+    line-height: 75px;
+  }
+
+  .titulo {
+    font-size: 2.5em;
+    text-align: center;
+    width: 100%;
+  }
+
+  .estado-general {
+    font-size: 8em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .divider {
+    background: none;
+    border-top: 1px solid #111;
+    border-bottom: 1px solid #333;
+    height: 0;
+    margin: 10px 0;
+    width: 100%;
+  }
+
+  .lineas .linea {
+    margin: 0 10%;
+    width: 80%;
+  }
+
+  .linea .icono.logo {
+    display: inline-block;
+    float: none;
+    vertical-align: text-bottom;
+  }
+
+  .linea .icono.estado {
+    margin: 0 5%;
+    display: inline-block;
+    float: none;
+    vertical-align: text-bottom;
+  }
+
+  .linea .descripcion.estado {
+    display: inline-block;
+    vertical-align: text-bottom;
+    line-height: 50px;
+  }
+}
+
+@media screen and (max-width: 240px) {
+  .titulo {
+    font-size: 2.3em;
+  }
+
+  .estado-general {
+    font-size: 7em;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .lineas ul {
+    margin: 0 auto;
+    width: 530px;
+  }
+
+  .divider {
+    display: none;
+  }
+
+  .lineas .linea {
+    display: inline-block;
+    float: none;
+  }
+}

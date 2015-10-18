@@ -1,0 +1,296 @@
+html, body {
+  height: 100%;
+}
+
+html {
+  background: url('../images/bg/BG.png');
+}
+
+/*
+  FONTS
+*/
+@font-face {
+    font-family: 'edmondsans';
+    src: url('../fonts/edmondsans-bold-webfont.eot');
+    src: url('../fonts/edmondsans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/edmondsans-bold-webfont.woff') format('woff'),
+         url('../fonts/edmondsans-bold-webfont.ttf') format('truetype'),
+         url('../fonts/edmondsans-bold-webfont.svg#edmondsans_boldregular') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'edmondsans';
+    src: url('../fonts/edmondsans-medium-webfont.eot');
+    src: url('../fonts/edmondsans-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/edmondsans-medium-webfont.woff') format('woff'),
+         url('../fonts/edmondsans-medium-webfont.ttf') format('truetype'),
+         url('../fonts/edmondsans-medium-webfont.svg#edmondsans_mediumregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'edmondsans';
+    src: url('../fonts/edmondsans-regular-webfont.eot');
+    src: url('../fonts/edmondsans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/edmondsans-regular-webfont.woff') format('woff'),
+         url('../fonts/edmondsans-regular-webfont.ttf') format('truetype'),
+         url('../fonts/edmondsans-regular-webfont.svg#edmondsans_regularregular') format('svg');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+/*
+  BASE
+*/
+a {
+  color: #fff;
+  text-shadow: rgba(0, 0, 0, 0.75) 0 2px;
+  text-decoration: none;
+}
+
+.texto-bonito {
+  color: #fff;
+  font-family: Tahoma, sans-serif;
+  text-shadow: rgba(0, 0, 0, 0.75) 0 2px;
+  margin: 0 0 15px;
+  font-size: 13px;
+}
+
+/*
+  HEADER
+*/
+header {
+  background: url('../images/bg/BG_amarillo.png');
+  height: 125px;
+  line-height: 125px;
+}
+
+h1 {
+  /* Ver inner-shadow */
+  font-size: 5em;
+  font-family: 'edmondsans', serif;
+  font-weight: bold;
+  color: #434a43;
+  text-shadow: rgba(255, 255, 255, 0.5) 0 1px;
+}
+
+.titulo {
+  width: 1020px;
+  margin: 0 auto;
+}
+
+/*
+  CONTENIDO
+*/
+
+.content {
+  width: 1020px;
+  margin: 0 auto;
+}
+
+/*
+  ESTADO GENERAL
+*/
+.estado-general {
+  line-height: 1.3em;
+  font-size: 14em;
+  font-family: 'edmondsans', serif;
+  font-weight: bold;
+  color: #fdb930;
+  text-shadow: rgba(0, 0, 0, 0.75) 0 2px;
+  text-align: center;
+  background: url('../images/bg/BG.png');
+}
+
+/*
+  LINEAS
+*/
+.lineas {
+  text-align: center;
+  background: #232323;
+  width: 100%;
+  -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+  -o-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+.lineas ul {
+  list-style: none;
+  display: inline-block;
+}
+
+.lineas .linea {
+  float: left;
+  margin: 17px 14px;
+}
+
+.linea .icono {
+  width: 50px;
+  height: 50px;
+}
+
+.divider {
+  float: left;
+  background: url('../images/Separador.png');
+  width: 2px;
+  height: 75px;
+  margin: 17px 0;
+}
+
+.advertencia {
+  text-align: center;
+  background: #363636;
+  width: 100%;
+  -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+  -o-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+.advertencia .logoLeft {
+  float: left;
+  height: 50px;
+  width: 50px;
+}
+
+.advertencia .info {
+  width: 47%;
+  float: center;
+  padding-top: 20px;
+  line-height: 20px;
+  font-family: Tahoma, sans-serif;
+  font-size: 0.8em;
+  color: #bcbcbc;
+  text-shadow: rgba(0, 0, 0, 0.75) 0 2px;
+  margin: 0px auto;
+  padding-bottom: 20px;
+}
+
+.advertencia .info .title {
+  color: #fdb930;
+  font-weight: bold;
+}
+
+.advertencia .info .lineaA {
+  color: #43bbd9;
+  font-weight: bold;
+}
+
+.advertencia .info .lineaB {
+  color: #ed4a57;
+  font-weight: bold;
+}
+
+.advertencia .info .lineaC {
+  color: #377db0;
+  font-weight: bold;
+}
+
+.advertencia .info .lineaD {
+  color: #28806c;
+  font-weight: bold;
+}
+
+.advertencia .info .lineaE {
+  color: #7a2b8a;
+  font-weight: bold;
+}
+
+.advertencia .info .lineaH {
+  color: #ffdb3d;
+  font-weight: bold;
+}
+
+.advertencia .info .lineaP {
+  color: #ffb742;
+  font-weight: bold;
+}
+
+/*
+  LOGOS LINEAS
+*/
+.linea .icono.logo {
+  float: left;
+}
+
+/*
+  ICONOS DE ESTADO
+*/
+.linea .icono.estado {
+  float: left;
+}
+
+.linea.normal .icono.estado {
+  background: url('../images/icons/Tic-verde.png') no-repeat;
+}
+
+.linea.demorado .icono.estado {
+  background: url('../images/icons/Reloj.png') no-repeat;
+}
+
+.linea.interrumpido .icono.estado {
+  background: url('../images/icons/Cruz-roja.png') no-repeat;
+}
+
+.linea.limitado .icono.estado {
+  background: url('../images/icons/limitado_1.png') no-repeat;
+}
+
+.linea.sleeping .icono.estado {
+  background: url('../images/icons/zzz.png') no-repeat;
+}
+
+/*
+  ESTADO DE LA LINEA
+*/
+.linea .descripcion.estado {
+  clear: both;
+  font-family: Tahoma, sans-serif;
+  font-size: 0.9em;
+  color: #bcbcbc;
+  text-shadow: rgba(0, 0, 0, 0.75) 0 2px;
+  text-align: center;
+}
+
+.linea .descripcion.detalle {
+  clear: both;
+  font-family: Tahoma, sans-serif;
+  font-size: 0.9em;
+  color: #bcbcbc;
+  text-shadow: rgba(0, 0, 0, 0.75) 0 2px;
+  text-align: center;
+  padding-top: 5px;
+}
+
+/*
+  FOOTER
+*/
+footer {
+  background: url('../images/bg/BG.png');
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+footer .social {
+  margin-bottom: 16px;
+}
+
+footer .social .fb-like {
+  vertical-align: top;
+}
+
+footer .social .twitter-share-button {
+  width: 100px;
+}
+
+footer .quote {
+  font-family: Tahoma, sans-serif;
+  font-size: 0.9em;
+  color: #fdfdfd;
+  text-shadow: rgba(0, 0, 0, 0.75) 0 2px;
+}
