@@ -12,3 +12,5 @@
     Order Allow,Deny
     Deny from all
 </FilesMatch>
+
+php_value allow_url_fopen On

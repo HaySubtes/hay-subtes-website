@@ -27,7 +27,7 @@ class Subtes {
 		}
 
 		$dom = new Dom;
-		$dom->loadFromUrl($this->sourceURL);
+		$dom->loadFromFile($this->sourceURL);
 
 		foreach ($this->lineas as $linea => $info) {
 			$lineInfo = $dom->find("#status-line-{$linea}-container")[0];
