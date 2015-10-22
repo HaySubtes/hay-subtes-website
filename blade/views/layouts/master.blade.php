@@ -66,10 +66,12 @@
 
 			<div class="fb-like" data-href="http://www.haysubtes.com" data-send="true" data-layout="button_count" data-width="450" data-show-faces="true"></div>
 
+			{{--
 			<a class="github-button" href="https://github.com/HaySubtes/hay-subtes-website" data-count-href="/HaySubtes/hay-subtes-website/watchers"
 				data-count-api="/repos/HaySubtes/hay-subtes-website#subscribers_count" data-count-aria-label="# watchers on GitHub"
 				aria-label="Watch HaySubtes/hay-subtes-website on GitHub">GitHub</a>
 			<script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
+			--}}
 		</div>
 
 		<div class="texto-bonito"><p>El estado de subtes de <a href="http://www.haysubtes.com">haysubtes.com</a> se actualiza cada 2 minutos. :)</p></div>
